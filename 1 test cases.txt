@@ -1,0 +1,57 @@
+Test cases should be written for all work flows and this type of test cases come from requirements.
+
+Test cases should be written that check the old version of product installed. If old version is installed, then test case should be written to install the product on the same path.
+
+Test script should be written to check the required Disk Space for installation.
+
+Test cases should be written for proper error message during installation.
+
+Test cases should be written to check the disk space before installation and just after installation of disk space.
+
+Test cases should be written to compare all the files and packages installed on system with the previous version of installer packages.
+
+Installation on network, on multiple machines through Master machine.
+
+Test script should be written to check the changes in registry.
+
+Test cases should be written for forced stop of installation.
+
+Default installation and custom installation path should be included in test cases for testing.
+
+Installation testing  should also be done when some other software of same kind is running and this testing should also be done with the software that is using a lot of RAM for its operation.
+
+Test cases should also be written for insufficient memory, here I am talking about RAM.
+
+Testing should be done for insufficient disk space and a proper error message should flash for insufficient disk space or some error number should flash.
+
+Testing of installer should be done when Firewall is on and security of system is high.
+
+Network speed / LAN Connectivity should also be tested if installer is using net to download its package file for installation.
+
+Concurrent installation of multiple product test cases is also most important.
+
+Time taken for installation and extraction.
+
+Testing should be to see the path of extraction of software and in general extraction of software takes place in temp file.
+
+Test cases should be written for log files, that includes all the activities of installation.
+
+***FOR UNINSTALL APPLICATION*********
+
+Uninstallation of product should be tested through add/remove programs and also from the path of the installed program, where we could find a un-installation file.
+
+ On double clicking the setup file, installation should start.
+
+Update installation and patch installation should also be tested.
+
+Running setup of product that is pre-installed on system should show GUI that should ask for Repair/Remove option or un-install and reinstallation option of same product.
+
+Test cases should be written to test how uninstallation behave when we uninstall after stopping uninstallation in midway
+
+Testing should be done to show proper messages when recent version is installed on system and we are trying to install old version of same product.
+
+Installer should be tested without having system administrator privileges.
+
+ A test case should also be written for installation of product in a folder where write option is disabled.
+
+A test case should be written for successful uninstallation and all files should be removed after uninstallation of the product.
